@@ -1,0 +1,25 @@
+# requirements.txt
+# YouTube → Blog Post Generator (CrewAI + Streamlit + Groq)
+
+# Core CrewAI Framework
+crewai[litellm]>=0.51.1,<1.0.0
+crewai-tools>=0.8.3
+
+# Streamlit UI
+streamlit>=1.38.0
+
+# YouTube Data Extraction
+yt-dlp>=2024.8.7
+
+# Pydantic & Type Validation
+pydantic>=2.8.0,<3.0.0
+
+# Groq LLM Support (via LiteLLM)
+litellm>=1.44.0
+
+# Development & Debugging
+python-dotenv>=1.0.1
+
+# Optional: Better Markdown rendering
+streamlit-extras>=0.4.0
+markdown>=3.6
